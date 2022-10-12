@@ -1,0 +1,53 @@
+﻿body {
+    background-color: #f7f7f7;
+}
+
+#LoginLayout {
+    background-color: white;
+    padding: 40px 50px;
+    margin-top: 40px;
+}
+    #LoginLayout #Loginimg {
+        border-right: 1px solid #ddd;
+    }
+
+    #LoginLayout #Loginform {
+        padding: 0;
+        padding-left: 90px;
+    }
+
+        #LoginLayout #Loginform h3 {
+            margin-bottom: 50px;
+            font-size: 28px;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        #LoginLayout #Loginform input[type="text"],
+        #LoginLayout #Loginform .input-group-addon {
+            background: none;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            border-bottom: 1px solid #ddd;
+        }
+
+
+
+        #LoginLayout #Loginform .input-group-addon {
+            padding: 0;
+            padding-left: 7px;
+        }
+
+        #LoginLayout #Loginform input[type="submit"] {
+            background-color: #0fa2ac;
+            border-radius: 45px;
+            width: 85px;
+            height: 40px;
+        }
+
+            #LoginLayout #Loginform input[type="submit"]:hover {
+                background-color: #0b3953;
+            }
+
+   

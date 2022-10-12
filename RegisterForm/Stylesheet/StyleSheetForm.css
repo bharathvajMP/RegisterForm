@@ -1,0 +1,54 @@
+﻿body {
+    background-color: #f7f7f7;
+}
+
+#FormLayout {
+    background-color: white;
+    padding:40px 50px;
+    margin-top:20px;
+}
+
+    #FormLayout #Form01{
+        padding:0;
+        padding-left:50px;
+    }
+
+    #FormLayout #Form01 h3{
+        margin-bottom:50px;
+        font-size:28px;
+        font-weight:bold;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+        #FormLayout #Form01 input[type="text"],
+        #FormLayout #Form01 .input-group-addon {
+            background: none;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            border-bottom: 1px solid #ddd;
+        }
+       
+       
+
+        #FormLayout #Form01 .input-group-addon {
+            padding: 0;
+            padding-left: 7px;
+        }
+
+        #FormLayout #Form01 input[type="submit"]{
+            background-color:#273c75;
+            border-radius:45px;
+            width:85px;
+            height:40px;
+        }
+        #FormLayout #Form01 input[type="submit"]:hover{
+            background-color: #172d97;
+        }
+
+        #FormLayout #imageForm {
+            border-left: 1px solid #ddd;
+        }
+
+   
+
